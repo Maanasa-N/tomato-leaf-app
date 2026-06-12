@@ -1,0 +1,16 @@
+[theme]
+primaryColor="#2E7D32"            # Subtle green (agriculture theme)
+backgroundColor="#FFFFFF"          # White background (fastest rendering)
+secondaryBackgroundColor="#F7F7F7" # Soft grey card background
+textColor="#1A1A1A"                # Darker clean text
+font="sans serif"
+
+[browser]
+gatherUsageStats = false           # Improves loading by disabling usage collection
+
+[server]
+headless = true
+runOnSave = true
+enableXsrfProtection = true
+enableWebsocketCompression = true  # Faster UI updates
+maxUploadSize = 20                 # Prevent slow large uploads
