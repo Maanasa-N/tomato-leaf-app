@@ -10,7 +10,7 @@ The project is deployed via a user-friendly **Streamlit web interface** with the
 * **Image Upload:** Users can upload images of tomato leaves for instant analysis.
 * **Two-Stage Screening:** 1. *Binary Classification:* Identifies if the leaf is Healthy or Diseased.
   2. *Multiclass Classification:* Categorizes the specific infection into one of nine disease categories.
-* **Severity Assessment:** Quantifies disease severity into Mild, Moderate, or Severe categories using **Singular Value Decomposition (SVD)** based on deviations from healthy baselines.
+* **Severity Assessment:** Quantifies disease severity into Mild, Moderate, or Severe categories based on deviations from healthy baselines.
 * **Treatment Chatbot:** Optional integration of an interactive chatbot to recommend specific agricultural interventions based on the diagnosed disease.
 
 ## 🧠 Methodology & Architecture
